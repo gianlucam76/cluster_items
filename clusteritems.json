@@ -1,20 +1,32 @@
-    ClusterItem(
-        "assets/clusterapi.png",
-        "namespace/name",
-        "v1.26.3"),
-    ClusterItem(
-        "assets/clusterapi.png",
-        "namespace/name",
-        "v1.27.2"),
-    ClusterItem(
-        "assets/clusterapi.png",
-        "namespace/name",
-        "v1.26.3"),
-    ClusterItem(
-        "assets/clusterapi.png",
-        "namespace/name",
-        "v1.27.2"),
-    ClusterItem(
-        "assets/k8s_blue_logo.png",
-        "namespace/name",
-        "v1.28.2"),   
+[
+  {
+    "type": "CAPI",
+    "namespace": "namespace",
+    "name": "name",
+    "version": "v1.26.3"
+  },
+  {
+    "type": "CAPI",
+    "namespace": "namespace",
+    "name": "name",
+    "version": "v1.27.2"
+  },
+  {
+    "type": "CAPI",
+    "namespace": "namespace",
+    "name": "name",
+    "version": "v1.26.3"
+  },
+  {
+    "type": "CAPI",
+    "namespace": "namespace",
+    "name": "name",
+    "version": "v1.27.2"
+  },
+  {
+    "type": "SveltosCluster",
+    "namespace": "namespace",
+    "name": "name",
+    "version": "v1.28.2"
+  }
+]
