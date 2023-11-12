@@ -1,0 +1,55 @@
+{
+  "charts":[
+  {
+      "repo": "https://kyverno.github.io/kyverno/", 
+      "namespace": "kyverno", 
+      "releaseName": "kyverno-latest",
+      "version": "v3.0.1"
+  },
+  {
+      "repo": "https://helm.nginx.com/stable/", 
+      "namespace": "nginx", 
+      "releaseName": "nginx-latest",
+      "version": "v0.14.0"
+  },
+  {
+      "repo": "https://prometheus-community.github.io/helm-charts", 
+      "namespace": "prometheus", 
+      "releaseName": "prometheus-community/prometheus",
+      "version": "v3.0.1"
+  }  
+],
+  "resources": [
+    {
+      "group": "",
+      "version": "v1",
+      "kind": "Pod",
+      "namespace": "foo",
+      "name": "bar"
+    },
+    
+    {
+      "group": "",
+      "version": "v1",
+      "kind": "Pod",
+      "namespace": "foo1",
+      "name": "bar1"
+    },
+    
+    {
+      "group": "apps",
+      "version": "v1",
+      "kind": "Deployment",
+      "namespace": "foo",
+      "name": "bar"
+    },
+    
+    {
+      "group": "",
+      "version": "v1",
+      "kind": "Namespace",
+      "namespace": "",
+      "name": "foo"
+    }
+  ]
+}
