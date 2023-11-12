@@ -28,5 +28,11 @@
     "namespace": "namespace",
     "name": "name",
     "version": "v1.28.2"
+  },
+  {
+    "type": "SveltosCluster",
+    "namespace": "namespace",
+    "name": "name",
+    "version": "v1.27.0"
   }
 ]
